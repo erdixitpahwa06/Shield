@@ -1,4 +1,5 @@
-name: Build Android APK
+- name: Build Debug APK
+  run: ./gradlew assembleDebug --stacktrace --info
 
 on:
   push:
